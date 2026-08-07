@@ -14,13 +14,13 @@ with customers as (
     select id as customer_id,
     first_name,
     last_name 
-   from raw.jeffle_shop.customers 
+   from raw.jaffle_shop.customers 
 )
 
 select id as customer_id,
     first_name,
     last_name 
-from raw.jeffle_shop.customers
+from raw.jaffle_shop.customers
 
 /*
     Uncomment the line below to remove records with null `id` values
