@@ -4,6 +4,5 @@ sources:
     schema: raw
     tables:
       - name: customers
-        description: "this is a customer table"
       - name: orders 
-        discription: "this is a orders table"
+        
